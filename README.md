@@ -26,3 +26,14 @@ The collection is a concept preview: prices, weight, and product claims are illu
 UI direction used guidance from the public `nextlevelbuilder/ui-ux-pro-max-skill` repository, adapted for a dark cinematic footwear showcase. Direct 21st.dev access was blocked in the setup environment, so components are custom.
 
 Validated: production build, browser startup, scroll transforms, color selection, layouts at 375/768/1024/1440px, reduced motion, and absence of browser runtime errors.
+
+## GitHub Pages
+
+The Vite build uses relative asset URLs so it also works at `/shoes-website/`.
+Serve the compiled `dist` directory; serving the source `index.html` directly cannot run JSX.
+
+In GitHub repository Settings → Pages, choose **GitHub Actions** as the source.
+Merge the website branch into `main`. The included Pages workflow builds and deploys on pushes to `main`, or can be launched manually from Actions after the workflow is present on the default branch.
+A successful deployment publishes to `https://godzisop.github.io/shoes-website/`.
+
+Production output was also verified with a browser under the `/shoes-website/` subpath, including asset loading and color selection.
