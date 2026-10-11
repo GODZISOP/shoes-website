@@ -1,0 +1,22 @@
+<svg  viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg"><defs>
+<linearGradient id="upper" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#eeeecf"/><stop offset=".45" stop-color="#bbbea4"/><stop offset="1" stop-color="#737968"/></linearGradient>
+<linearGradient id="sole" x2="0" y2="1"><stop stop-color="#e4e6c9"/><stop offset="1" stop-color="#8b9179"/></linearGradient>
+<linearGradient id="panel"><stop stop-color="#3e4938"/><stop offset="1" stop-color="#737a61"/></linearGradient>
+<pattern id="mesh" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#343e2d" opacity=".3"/></pattern>
+<filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="15" flood-opacity=".35"/></filter>
+</defs><g filter="url(#shadow)">
+<path d="M92 319 Q89 290 113 264 L150 149 Q158 125 179 139 L234 182 Q263 204 308 186 L383 144 Q404 130 421 153 L460 204 Q530 252 626 277 L767 309 Q814 320 818 346 Q811 378 747 384 L207 382 Q127 373 95 348Z" fill="url(#upper)"/>
+<path d="M100 317 Q200 336 313 318 Q427 300 494 309 Q675 353 807 330 L818 352 Q797 392 729 398 L208 392 Q126 383 94 353Z" fill="url(#sole)"/>
+<path d="M95 352 Q239 397 444 366 Q589 390 805 363 L801 381 Q768 404 703 408 L218 405 Q135 396 98 373Z" fill="#252b23"/>
+<path d="M122 269 L153 162 Q163 146 180 162 L224 201 L203 300Z" fill="url(#panel)"/>
+<path d="M224 210 Q289 233 361 177 L390 157 L458 226 L383 309 L220 309Z" fill="url(#mesh)"/>
+<path d="M445 234 Q534 287 694 306 L772 327 Q646 346 491 307 L385 309Z" fill="url(#mesh)"/>
+<path d="M229 301 Q307 292 363 252 L476 241 L385 284 Q317 322 229 319Z" fill="#d8fc55"/>
+<path d="M327 207 L371 160 Q385 146 399 161 L455 229 L408 252Z" fill="#20271e"/>
+<g stroke="#ecebd2" stroke-width="9" stroke-linecap="round"><path d="M335 203 L406 193"/><path d="M345 217 L420 207"/><path d="M360 231 L434 221"/><path d="M374 247 L446 235"/></g>
+<path d="M163 147 L175 124 L187 128 L181 161" fill="#d8fc55"/>
+<path d="M122 284 L147 225 L178 238 L165 302" fill="none" stroke="#a6ad92" stroke-width="5"/>
+<g fill="#555e49"><path d="M179 352 L226 360 L220 380 L173 372Z"/><path d="M247 362 L291 362 L287 383 L242 383Z"/><path d="M313 359 L355 354 L354 377 L310 383Z"/><path d="M379 350 L421 344 L425 368 L378 373Z"/><path d="M451 345 L493 349 L496 373 L452 367Z"/></g>
+<path d="M535 354 Q651 377 765 355" fill="none" stroke="#f2f1d6" stroke-width="4"/>
+<text x="553" y="318" fill="#394431" font-size="13" font-family="monospace" transform="rotate(12 553 318)">AERO / 01</text>
+</g></svg>
